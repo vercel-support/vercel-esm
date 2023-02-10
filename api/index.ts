@@ -1,4 +1,4 @@
-import * as DEFAULT_TOKEN_LIST from "@sushiswap/default-token-list" assert { type: "json" };
+import * as DEFAULT_TOKEN_LIST from "@sushiswap/build/default-token-list" assert { type: "json" };
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 
 export default (_request: VercelRequest, response: VercelResponse) => {
